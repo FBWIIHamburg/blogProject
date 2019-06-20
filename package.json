@@ -1,0 +1,22 @@
+{
+  "name": "blogproject",
+  "version": "1.0.0",
+  "description": "This project is given us to learn the concepts of backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FBWIIHamburg/blogProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FBWIIHamburg/blogProject/issues"
+  },
+  "homepage": "https://github.com/FBWIIHamburg/blogProject#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

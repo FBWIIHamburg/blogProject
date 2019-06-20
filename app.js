@@ -7,6 +7,9 @@ const port = process.env.PORT || 4000;
 
 const app = express();
 
+// set views folder
+app.set('views', path.join(__dirname, '/src/views'));
+
 // set express urlencoded middelwear
 app.use(session({
     secret: "dreamTeam",
@@ -18,11 +21,12 @@ app.use(bodyParser.json());
 
 // set view engine
 app.set('view engine', 'ejs');
+app.use(express.static('public'))
 
 
-
-
-
+app.get('/', (req,res)=>{
+    res.render('registration');
+});
 
 
 
